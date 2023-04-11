@@ -46,8 +46,8 @@ AND email LIKE '%no';
 
 --  9. Menampilkan data member yang mempunyai kode instansi “2004”
 SELECT * FROM mst_member
-WHERE kode_instansi LIKE "%.2004"
+WHERE kode_instansi LIKE "%.2004";
 
 --  10. Menampilkan data member yang mempunyai karakter kode kecamatan “.08.”
 SELECT * FROM mst_member
-WHERE id_kecamatan LIKE "%.80.%"
+WHERE id_kecamatan LIKE "%.80.%";
